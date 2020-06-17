@@ -40,11 +40,17 @@ $(function () {
     // Скролл вверх
     $(".go-up").on('click', Scroll);
 
+    // Выпадающее меню
+    $(".header__menu-2").on("click", Mob_menu_open);
+
     // Появление кнопки при прокрутке
     $(window).on("scroll", Button_up);
 
     // Изменяется шапка
     $(window).on("scroll", Active_section);
+
+    // Скрыть меню
+    $(window).on("resize", Menu_width);
 
     Active_section;
 
@@ -68,6 +74,26 @@ function Popup_open() {
     $(".popup").addClass("target");
 }
 
+// Скрыть меню при ширине
+function Menu_width() {
+    if ($(window).width() > 1043 && $(".header__menu-2").hasClass("active")) {
+        $(".header__menu-2").removeClass("active");
+        $(".header__mob-menu").slideUp(250);
+    }
+}
+
+// Выпадающее меню
+function Mob_menu_open() {
+    if ($(".header__mob-menu").is(":hidden")) {
+        $(".header__mob-menu").slideDown(400);
+        $(this).addClass("active")
+    }
+    else {
+        $(".header__mob-menu").slideUp(400);
+        $(this).removeClass("active")
+    }
+}
+
 // Закрытие формы
 function Popup_close(event) {
     if (event.target == this) {
@@ -78,17 +104,17 @@ function Popup_close(event) {
 
 // Видимая часть
 function Active_section() {
-    if ($("#about-me").offset().top < $(window).scrollTop() && $("#I-do").offset().top - 400 > $(window).scrollTop() && $(".header__menu > .header__item:nth-child(2) a").attr("class") != "active") {
+    if ($("#about-me").offset().top < $(window).scrollTop() && $("#I-do").offset().top - 400 > $(window).scrollTop() && $(".header__item:nth-child(2) a").attr("class") != "active") {
         $("*").removeClass("active");
-        $(".header__menu > .header__item:nth-child(2) a").addClass("active");
+        $(".header__item:nth-child(2) a").addClass("active");
     }
-    else if ($("#I-do").offset().top - 400 < $(window).scrollTop() && $("#price").offset().top - 400 > $(window).scrollTop() && $(".header__menu > .header__item:nth-child(1) a").attr("class") != "active") {
+    else if ($("#I-do").offset().top - 400 < $(window).scrollTop() && $("#price").offset().top - 400 > $(window).scrollTop() && $(".header__item:nth-child(1) a").attr("class") != "active") {
         $("*").removeClass("active");
-        $(".header__menu > .header__item:nth-child(1) a").addClass("active");
+        $(".header__item:nth-child(1) a").addClass("active");
     }
-    else if ($("#price").offset().top - 400 < $(window).scrollTop() && $(".header__menu > .header__item:nth-child(3) a").attr("class") != "active") {
+    else if ($("#price").offset().top - 400 < $(window).scrollTop() && $(".header__item:nth-child(3) a").attr("class") != "active") {
         $("*").removeClass("active");
-        $(".header__menu > .header__item:nth-child(3) a").addClass("active");
+        $(".header__item:nth-child(3) a").addClass("active");
     }
 }
 
