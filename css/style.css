@@ -507,108 +507,94 @@ main .about-me__flight-letters {
 main .about-me__flight-letter-1 {
   display: inline-block;
   font-size: 48px;
-  left: 80%;
-  top: 90%;
-  opacity: 0;
-  -webkit-animation-name: letter-1, letter-1-1, letter-1-2;
-          animation-name: letter-1, letter-1-1, letter-1-2;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
-  -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  -webkit-transform: rotate(390deg);
+          transform: rotate(390deg);
+  opacity: 1;
+  top: -7px;
+  left: 126px;
+  -webkit-animation-name: letter-1;
+          animation-name: letter-1;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: none;
+          animation-fill-mode: none;
 }
 
 @-webkit-keyframes letter-1 {
-  100% {
-    -webkit-transform: rotate(390deg);
-            transform: rotate(390deg);
-    opacity: 1;
-    top: -7px;
-    left: 126px;
+  0% {
+    left: 80%;
+    top: 90%;
+    opacity: 0;
   }
 }
 
 @keyframes letter-1 {
-  100% {
-    -webkit-transform: rotate(390deg);
-            transform: rotate(390deg);
-    opacity: 1;
-    top: -7px;
-    left: 126px;
+  0% {
+    left: 80%;
+    top: 90%;
+    opacity: 0;
   }
 }
 
 main .about-me__flight-letter-2 {
   font-size: 30px;
-  -webkit-transform: rotate(-14deg);
-          transform: rotate(-14deg);
-  left: 80%;
-  top: 90%;
-  opacity: 0;
-  -webkit-animation-name: letter-2, letter-2-1, letter-2-2;
-          animation-name: letter-2, letter-2-1, letter-2-2;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
-  -webkit-animation-delay: 0.7s;
-          animation-delay: 0.7s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  -webkit-transform: rotate(-374deg);
+          transform: rotate(-374deg);
+  top: 24px;
+  left: 771px;
+  opacity: 1;
+  -webkit-animation-name: letter-2;
+          animation-name: letter-2;
+  -webkit-animation-duration: 2.2s;
+          animation-duration: 2.2s;
+  -webkit-animation-fill-mode: none;
+          animation-fill-mode: none;
 }
 
 @-webkit-keyframes letter-2 {
-  100% {
-    -webkit-transform: rotate(-374deg);
-            transform: rotate(-374deg);
-    top: 24px;
-    left: 771px;
-    opacity: 1;
+  0% {
+    left: 80%;
+    top: 90%;
+    opacity: 0;
   }
 }
 
 @keyframes letter-2 {
-  100% {
-    -webkit-transform: rotate(-374deg);
-            transform: rotate(-374deg);
-    top: 24px;
-    left: 771px;
-    opacity: 1;
+  0% {
+    left: 80%;
+    top: 90%;
+    opacity: 0;
   }
 }
 
 main .about-me__flight-letter-3 {
   font-size: 57px;
-  left: 80%;
-  top: 90%;
-  opacity: 0;
-  -webkit-animation-name: letter-3, letter-3-1, letter-3-2, letter-3-3, letter-3-4;
-          animation-name: letter-3, letter-3-1, letter-3-2, letter-3-3, letter-3-4;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
-  -webkit-animation-delay: 0.9s;
-          animation-delay: 0.9s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  -webkit-transform: rotate(375deg);
+          transform: rotate(375deg);
+  top: 215px;
+  left: 238px;
+  opacity: 1;
+  -webkit-animation-name: letter-3;
+          animation-name: letter-3;
+  -webkit-animation-duration: 2.4s;
+          animation-duration: 2.4s;
+  -webkit-animation-fill-mode: none;
+          animation-fill-mode: none;
 }
 
 @-webkit-keyframes letter-3 {
-  100% {
-    -webkit-transform: rotate(375deg);
-            transform: rotate(375deg);
-    top: 215px;
-    left: 238px;
-    opacity: 1;
+  0% {
+    left: 80%;
+    top: 90%;
+    opacity: 0;
   }
 }
 
 @keyframes letter-3 {
-  100% {
-    -webkit-transform: rotate(375deg);
-            transform: rotate(375deg);
-    top: 215px;
-    left: 238px;
-    opacity: 1;
+  0% {
+    left: 80%;
+    top: 90%;
+    opacity: 0;
   }
 }
 
@@ -619,87 +605,80 @@ main .about-me__flight-letter-4 {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  left: 80%;
-  top: 90%;
-  opacity: 0;
-  -webkit-animation-name: letter-4, letter-4-1;
-          animation-name: letter-4, letter-4-1;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
-  -webkit-animation-delay: 1.1s;
-          animation-delay: 1.1s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  top: 390px;
+  left: 930px;
+  -webkit-transform: rotate(381deg);
+          transform: rotate(381deg);
+  opacity: 1;
+  -webkit-animation-name: letter-4;
+          animation-name: letter-4;
+  -webkit-animation-duration: 2.6s;
+          animation-duration: 2.6s;
+  -webkit-animation-fill-mode: none;
+          animation-fill-mode: none;
 }
 
 @-webkit-keyframes letter-4 {
-  100% {
-    top: 390px;
-    left: 930px;
-    -webkit-transform: rotate(381deg);
-            transform: rotate(381deg);
-    opacity: 1;
+  0% {
+    left: 80%;
+    top: 90%;
+    opacity: 0;
   }
 }
 
 @keyframes letter-4 {
-  100% {
-    top: 390px;
-    left: 930px;
-    -webkit-transform: rotate(381deg);
-            transform: rotate(381deg);
-    opacity: 1;
+  0% {
+    left: 80%;
+    top: 90%;
+    opacity: 0;
   }
 }
 
 main .about-me__flight-letter-5 {
   font-size: 41px;
-  left: 80%;
-  top: 90%;
-  opacity: 0;
-  -webkit-animation-name: letter-5, letter-5-1;
-          animation-name: letter-5, letter-5-1;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
-  -webkit-animation-delay: 1.3s;
-          animation-delay: 1.3s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  top: 517px;
+  left: 367px;
+  -webkit-transform: rotate(-384deg);
+          transform: rotate(-384deg);
+  opacity: 1;
+  -webkit-animation-name: letter-5;
+          animation-name: letter-5;
+  -webkit-animation-duration: 2.8s;
+          animation-duration: 2.8s;
+  -webkit-animation-fill-mode: none;
+          animation-fill-mode: none;
 }
 
 @-webkit-keyframes letter-5 {
-  100% {
-    top: 517px;
-    left: 367px;
-    -webkit-transform: rotate(-384deg);
-            transform: rotate(-384deg);
-    opacity: 1;
+  0% {
+    left: 80%;
+    top: 90%;
+    opacity: 0;
   }
 }
 
 @keyframes letter-5 {
-  100% {
-    top: 517px;
-    left: 367px;
-    -webkit-transform: rotate(-384deg);
-            transform: rotate(-384deg);
-    opacity: 1;
+  0% {
+    left: 80%;
+    top: 90%;
+    opacity: 0;
   }
 }
 
 main .about-me__flight-letter-6 {
-  left: 80%;
-  top: 90%;
-  opacity: 0;
+  top: 93px;
+  left: 421px;
   visibility: hidden;
-  -webkit-animation-name: letter-6, letter-6-1;
-          animation-name: letter-6, letter-6-1;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
-  -webkit-animation-delay: 1.5s;
-          animation-delay: 1.5s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  font-size: 47px;
+  opacity: 1;
+  -webkit-transform: rotate(14deg);
+          transform: rotate(14deg);
+  -webkit-animation-name: letter-6;
+          animation-name: letter-6;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: none;
+          animation-fill-mode: none;
 }
 
 main .about-me__text {
@@ -718,7 +697,7 @@ main .about-me__text .about-me__name {
 main .about-me__text .about-me__I {
   position: absolute;
   top: 0;
-  right: -75px;
+  right: -170px;
   height: 100%;
 }
 
@@ -740,6 +719,13 @@ main .about-me__text-2 {
 @media (max-width: 1621px) {
   main .about-me .about-me__I {
     right: 3px;
+  }
+  main .about-me__flight-letter-3 {
+    -webkit-transform: rotate(375deg);
+            transform: rotate(375deg);
+    top: 490px;
+    left: 56px;
+    opacity: 1;
   }
 }
 
@@ -771,140 +757,59 @@ main .about-me__text-2 {
 }
 
 @media (max-width: 1180px) {
-  @-webkit-keyframes letter-1-1 {
-    100% {
-      -webkit-transform: rotate(390deg);
-              transform: rotate(390deg);
-      opacity: 1;
-      top: 17px;
-      left: 80px;
-    }
+  main .about-me__flight-letter-1 {
+    opacity: 1;
+    top: 17px;
+    left: 80px;
   }
-  @keyframes letter-1-1 {
-    100% {
-      -webkit-transform: rotate(390deg);
-              transform: rotate(390deg);
-      opacity: 1;
-      top: 17px;
-      left: 80px;
-    }
+  main .about-me__flight-letter-2 {
+    -webkit-transform: rotate(-374deg);
+            transform: rotate(-374deg);
+    top: 11px;
+    left: 887px;
+    opacity: 1;
   }
-  @-webkit-keyframes letter-2-1 {
-    100% {
-      -webkit-transform: rotate(-374deg);
-              transform: rotate(-374deg);
-      top: 11px;
-      left: 887px;
-      opacity: 1;
-    }
+  main .about-me__flight-letter-4 {
+    top: 408px;
+    left: 868px;
+    -webkit-transform: rotate(381deg);
+            transform: rotate(381deg);
+    opacity: 1;
   }
-  @keyframes letter-2-1 {
-    100% {
-      -webkit-transform: rotate(-374deg);
-              transform: rotate(-374deg);
-      top: 11px;
-      left: 887px;
-      opacity: 1;
-    }
+  main .about-me__flight-letter-5 {
+    top: 445px;
+    left: 358px;
+    -webkit-transform: rotate(-384deg);
+            transform: rotate(-384deg);
+    opacity: 1;
   }
-  @-webkit-keyframes letter-3-1 {
-    100% {
-      -webkit-transform: rotate(375deg);
-              transform: rotate(375deg);
-      top: 490px;
-      left: 56px;
-      opacity: 1;
-    }
-  }
-  @keyframes letter-3-1 {
-    100% {
-      -webkit-transform: rotate(375deg);
-              transform: rotate(375deg);
-      top: 490px;
-      left: 56px;
-      opacity: 1;
-    }
-  }
-  @-webkit-keyframes letter-4-1 {
-    100% {
-      top: 408px;
-      left: 868px;
-      -webkit-transform: rotate(381deg);
-              transform: rotate(381deg);
-      opacity: 1;
-    }
-  }
-  @keyframes letter-4-1 {
-    100% {
-      top: 408px;
-      left: 868px;
-      -webkit-transform: rotate(381deg);
-              transform: rotate(381deg);
-      opacity: 1;
-    }
-  }
-  @-webkit-keyframes letter-5-1 {
-    100% {
-      top: 445px;
-      left: 358px;
-      -webkit-transform: rotate(-384deg);
-              transform: rotate(-384deg);
-      opacity: 1;
-    }
-  }
-  @keyframes letter-5-1 {
-    100% {
-      top: 445px;
-      left: 358px;
-      -webkit-transform: rotate(-384deg);
-              transform: rotate(-384deg);
-      opacity: 1;
-    }
+  main .about-me__flight-letter-6 {
+    visibility: visible;
   }
   @-webkit-keyframes letter-6 {
-    100% {
-      top: 93px;
-      visibility: visible;
-      left: 421px;
-      font-size: 47px;
-      opacity: 1;
-      -webkit-transform: rotate(14deg);
-              transform: rotate(14deg);
+    0% {
+      left: 80%;
+      top: 90%;
+      opacity: 0;
     }
   }
   @keyframes letter-6 {
-    100% {
-      top: 93px;
-      visibility: visible;
-      left: 421px;
-      font-size: 47px;
-      opacity: 1;
-      -webkit-transform: rotate(14deg);
-              transform: rotate(14deg);
+    0% {
+      left: 80%;
+      top: 90%;
+      opacity: 0;
     }
   }
 }
 
 @media (max-width: 970px) {
-  @-webkit-keyframes letter-2-2 {
-    100% {
-      -webkit-transform: rotate(19deg);
-              transform: rotate(19deg);
-      font-size: 15px;
-      top: 29px;
-      left: 247px;
-      opacity: 1;
-    }
-  }
-  @keyframes letter-2-2 {
-    100% {
-      -webkit-transform: rotate(19deg);
-              transform: rotate(19deg);
-      font-size: 15px;
-      top: 29px;
-      left: 247px;
-      opacity: 1;
-    }
+  main .about-me__flight-letter-2 {
+    -webkit-transform: rotate(19deg);
+            transform: rotate(19deg);
+    font-size: 15px;
+    top: 29px;
+    left: 247px;
+    opacity: 1;
   }
   main .about-me__flight-letter-4 {
     display: none;
@@ -941,23 +846,12 @@ main .about-me__text-2 {
   main .about-me .about-me__text .about-me__learn {
     height: 55px;
   }
-  @-webkit-keyframes letter-3-2 {
-    100% {
-      -webkit-transform: rotate(375deg);
-              transform: rotate(375deg);
-      top: 330px;
-      left: 56px;
-      opacity: 1;
-    }
-  }
-  @keyframes letter-3-2 {
-    100% {
-      -webkit-transform: rotate(375deg);
-              transform: rotate(375deg);
-      top: 330px;
-      left: 56px;
-      opacity: 1;
-    }
+  main .about-me__flight-letter-3 {
+    -webkit-transform: rotate(375deg);
+            transform: rotate(375deg);
+    top: 330px;
+    left: 56px;
+    opacity: 1;
   }
 }
 
@@ -975,88 +869,40 @@ main .about-me__text-2 {
   main .about-me .about-me__text .about-me__learn {
     height: 45px;
   }
-  @-webkit-keyframes letter-3-3 {
-    100% {
-      -webkit-transform: rotate(375deg);
-              transform: rotate(375deg);
-      top: 260px;
-      left: 56px;
-      opacity: 1;
-    }
-  }
-  @keyframes letter-3-3 {
-    100% {
-      -webkit-transform: rotate(375deg);
-              transform: rotate(375deg);
-      top: 260px;
-      left: 56px;
-      opacity: 1;
-    }
+  main .about-me__flight-letter-3 {
+    -webkit-transform: rotate(375deg);
+            transform: rotate(375deg);
+    top: 260px;
+    left: 56px;
+    opacity: 1;
   }
 }
 
 @media (max-width: 580px) {
-  @-webkit-keyframes letter-1-2 {
-    100% {
-      -webkit-transform: rotate(385deg);
-              transform: rotate(385deg);
-      opacity: 1;
-      font-size: 25px;
-      top: -16px;
-      left: 49px;
-    }
+  main .about-me__flight-letter-1 {
+    -webkit-transform: rotate(385deg);
+            transform: rotate(385deg);
+    opacity: 1;
+    font-size: 25px;
+    top: -16px;
+    left: 49px;
   }
-  @keyframes letter-1-2 {
-    100% {
-      -webkit-transform: rotate(385deg);
-              transform: rotate(385deg);
-      opacity: 1;
-      font-size: 25px;
-      top: -16px;
-      left: 49px;
-    }
+  main .about-me__flight-letter-6 {
+    top: -35px;
+    visibility: visible;
+    left: 172px;
+    font-size: 19px;
+    opacity: 1;
+    -webkit-transform: rotate(-28deg);
+            transform: rotate(-28deg);
   }
-  @-webkit-keyframes letter-6-1 {
-    100% {
-      top: -35px;
-      visibility: visible;
-      left: 172px;
-      font-size: 19px;
-      opacity: 1;
-      -webkit-transform: rotate(14deg);
-      transform: rotate(-28deg);
-    }
-  }
-  @keyframes letter-6-1 {
-    100% {
-      top: -35px;
-      visibility: visible;
-      left: 172px;
-      font-size: 19px;
-      opacity: 1;
-      -webkit-transform: rotate(14deg);
-      transform: rotate(-28deg);
-    }
-  }
-  @-webkit-keyframes letter-3-4 {
-    100% {
-      -webkit-transform: rotate(375deg);
-              transform: rotate(375deg);
-      top: 86px;
-      font-size: 30px;
-      left: 36px;
-      opacity: 1;
-    }
-  }
-  @keyframes letter-3-4 {
-    100% {
-      -webkit-transform: rotate(375deg);
-              transform: rotate(375deg);
-      top: 86px;
-      font-size: 30px;
-      left: 36px;
-      opacity: 1;
-    }
+  main .about-me__flight-letter-3 {
+    -webkit-transform: rotate(375deg);
+            transform: rotate(375deg);
+    top: 86px;
+    font-size: 30px;
+    left: 36px;
+    opacity: 1;
   }
   main .about-me .about-me__text {
     padding: 176px 0;
@@ -1105,12 +951,6 @@ main .about-me__text-2 {
   main .about-me__text-2 .about-me__subtitle {
     font-size: 16px;
     line-height: 22px;
-  }
-}
-
-@media (max-width: 415px) {
-  main {
-    margin-top: 116px;
   }
 }
 
@@ -1200,6 +1040,9 @@ main .I-do__list .I-do__item .I-do__img {
 }
 
 @media (max-width: 415px) {
+  main .I-do {
+    margin-top: 116px;
+  }
   main .I-do .I-do__list {
     margin-top: 40px;
   }
@@ -1426,176 +1269,156 @@ main .price__flight-letters {
 
 main .price__flight-letter-1 {
   font-size: 49px;
-  opacity: 0;
-  top: 50%;
-  left: 80%;
+  top: 56px;
+  left: 126px;
+  -webkit-transform: rotate(388deg);
+          transform: rotate(388deg);
+  opacity: 1;
   -webkit-animation-name: price-letter-1, price-letter-1-1;
           animation-name: price-letter-1, price-letter-1-1;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
-  -webkit-animation-delay: 0.7s;
-          animation-delay: 0.7s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  -webkit-animation-duration: 2.2s;
+          animation-duration: 2.2s;
+  -webkit-animation-fill-mode: none;
+          animation-fill-mode: none;
 }
 
 @-webkit-keyframes price-letter-1 {
-  100% {
-    top: 56px;
-    left: 126px;
-    -webkit-transform: rotate(388deg);
-            transform: rotate(388deg);
-    opacity: 1;
+  0% {
+    opacity: 0;
+    top: 50%;
+    left: 80%;
   }
 }
 
 @keyframes price-letter-1 {
-  100% {
-    top: 56px;
-    left: 126px;
-    -webkit-transform: rotate(388deg);
-            transform: rotate(388deg);
-    opacity: 1;
+  0% {
+    opacity: 0;
+    top: 50%;
+    left: 80%;
   }
 }
 
 main .price__flight-letter-2 {
   font-size: 41px;
-  top: 50%;
-  right: 80%;
-  opacity: 0;
+  top: 71px;
+  right: 201px;
+  -webkit-transform: rotate(-382deg);
+          transform: rotate(-382deg);
+  opacity: 1;
   -webkit-animation-name: price-letter-2, price-letter-2-1;
           animation-name: price-letter-2, price-letter-2-1;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
-  -webkit-animation-delay: 0.7s;
-          animation-delay: 0.7s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  -webkit-animation-duration: 2.2s;
+          animation-duration: 2.2s;
+  -webkit-animation-fill-mode: none;
+          animation-fill-mode: none;
 }
 
 @-webkit-keyframes price-letter-2 {
-  100% {
-    top: 71px;
-    right: 201px;
-    -webkit-transform: rotate(-382deg);
-            transform: rotate(-382deg);
-    opacity: 1;
+  0% {
+    top: 50%;
+    right: 80%;
+    opacity: 0;
   }
 }
 
 @keyframes price-letter-2 {
-  100% {
-    top: 71px;
-    right: 201px;
-    -webkit-transform: rotate(-382deg);
-            transform: rotate(-382deg);
-    opacity: 1;
+  0% {
+    top: 50%;
+    right: 80%;
+    opacity: 0;
   }
 }
 
 main .price__flight-letter-3 {
-  left: 80%;
-  bottom: 50%;
-  opacity: 0;
   font-size: 58px;
+  bottom: 46px;
+  left: 237px;
+  -webkit-transform: rotate(374deg);
+          transform: rotate(374deg);
+  opacity: 1;
   -webkit-animation-name: price-letter-3, price-letter-3-1;
           animation-name: price-letter-3, price-letter-3-1;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
-  -webkit-animation-delay: 0.7s;
-          animation-delay: 0.7s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  -webkit-animation-duration: 2.2s;
+          animation-duration: 2.2s;
+  -webkit-animation-fill-mode: none;
+          animation-fill-mode: none;
 }
 
 @-webkit-keyframes price-letter-3 {
-  100% {
-    bottom: 46px;
-    left: 237px;
-    -webkit-transform: rotate(374deg);
-            transform: rotate(374deg);
-    opacity: 1;
+  0% {
+    left: 80%;
+    bottom: 50%;
+    opacity: 0;
   }
 }
 
 @keyframes price-letter-3 {
-  100% {
-    bottom: 46px;
-    left: 237px;
-    -webkit-transform: rotate(374deg);
-            transform: rotate(374deg);
-    opacity: 1;
+  0% {
+    left: 80%;
+    bottom: 50%;
+    opacity: 0;
   }
 }
 
 main .price__flight-letter-4 {
   font-size: 38px;
-  bottom: 50%;
-  right: 80%;
-  opacity: 0;
+  right: 400px;
+  bottom: 16px;
+  -webkit-transform: rotate(380deg);
+          transform: rotate(380deg);
+  opacity: 1;
   -webkit-animation-name: price-letter-4, price-letter-4-1;
           animation-name: price-letter-4, price-letter-4-1;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
-  -webkit-animation-delay: 0.7s;
-          animation-delay: 0.7s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  -webkit-animation-duration: 2.2s;
+          animation-duration: 2.2s;
+  -webkit-animation-fill-mode: none;
+          animation-fill-mode: none;
 }
 
 @-webkit-keyframes price-letter-4 {
-  100% {
-    right: 400px;
-    bottom: 16px;
-    -webkit-transform: rotate(380deg);
-            transform: rotate(380deg);
-    opacity: 1;
+  0% {
+    bottom: 50%;
+    right: 80%;
+    opacity: 0;
   }
 }
 
 @keyframes price-letter-4 {
-  100% {
-    right: 400px;
-    bottom: 16px;
-    -webkit-transform: rotate(380deg);
-            transform: rotate(380deg);
-    opacity: 1;
+  0% {
+    bottom: 50%;
+    right: 80%;
+    opacity: 0;
   }
 }
 
 main .price__flight-letter-5 {
   font-size: 50px;
-  bottom: 50%;
-  right: 80%;
-  opacity: 0;
+  right: 106px;
+  bottom: 47px;
+  -webkit-transform: rotate(-379deg);
+          transform: rotate(-379deg);
+  opacity: 1;
   -webkit-animation-name: price-letter-5, price-letter-5-1;
           animation-name: price-letter-5, price-letter-5-1;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
-  -webkit-animation-delay: 0.7s;
-          animation-delay: 0.7s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  -webkit-animation-duration: 2.2s;
+          animation-duration: 2.2s;
+  -webkit-animation-fill-mode: none;
+          animation-fill-mode: none;
 }
 
 @-webkit-keyframes price-letter-5 {
-  100% {
-    right: 106px;
-    bottom: 47px;
-    -webkit-transform: rotate(-379deg);
-            transform: rotate(-379deg);
-    opacity: 1;
+  0% {
+    bottom: 50%;
+    right: 80%;
+    opacity: 0;
   }
 }
 
 @keyframes price-letter-5 {
-  100% {
-    right: 106px;
-    bottom: 47px;
-    -webkit-transform: rotate(-379deg);
-            transform: rotate(-379deg);
-    opacity: 1;
+  0% {
+    bottom: 50%;
+    right: 80%;
+    opacity: 0;
   }
 }
 
@@ -1635,83 +1458,27 @@ main .price__container .price__subtitle :nth-child(2) {
   main .price {
     margin-bottom: 105px;
   }
-  @-webkit-keyframes price-letter-1-1 {
-    100% {
-      top: 21px;
-      left: 156px;
-      font-size: 33px;
-      -webkit-transform: rotate(388deg);
-              transform: rotate(388deg);
-      opacity: 1;
-    }
+  main .price__flight-letter-1 {
+    top: 21px;
+    left: 156px;
+    font-size: 33px;
   }
-  @keyframes price-letter-1-1 {
-    100% {
-      top: 21px;
-      left: 156px;
-      font-size: 33px;
-      -webkit-transform: rotate(388deg);
-              transform: rotate(388deg);
-      opacity: 1;
-    }
+  main .price__flight-letter-2 {
+    top: 286px;
+    right: 93px;
   }
-  @-webkit-keyframes price-letter-2-1 {
-    100% {
-      top: 286px;
-      right: 93px;
-      -webkit-transform: rotate(-382deg);
-              transform: rotate(-382deg);
-      opacity: 1;
-    }
+  main .price__flight-letter-3 {
+    visibility: hidden;
+    opacity: 0;
   }
-  @keyframes price-letter-2-1 {
-    100% {
-      top: 286px;
-      right: 93px;
-      -webkit-transform: rotate(-382deg);
-              transform: rotate(-382deg);
-      opacity: 1;
-    }
+  main .price__flight-letter-4 {
+    font-size: 25px;
+    right: 453px;
+    bottom: 31px;
   }
-  @-webkit-keyframes price-letter-3-1 {
-    100% {
-      visibility: hidden;
-    }
-  }
-  @keyframes price-letter-3-1 {
-    100% {
-      visibility: hidden;
-    }
-  }
-  @-webkit-keyframes price-letter-4-1 {
-    100% {
-      font-size: 25px;
-      right: 453px;
-      bottom: 31px;
-      -webkit-transform: rotate(380deg);
-              transform: rotate(380deg);
-      opacity: 1;
-    }
-  }
-  @keyframes price-letter-4-1 {
-    100% {
-      font-size: 25px;
-      right: 453px;
-      bottom: 31px;
-      -webkit-transform: rotate(380deg);
-              transform: rotate(380deg);
-      opacity: 1;
-    }
-  }
-  @-webkit-keyframes price-letter-5-1 {
-    100% {
-      visibility: hidden;
-    }
-  }
-  @keyframes price-letter-5-1 {
-    100% {
-      visibility: hidden;
-    }
+  main .price__flight-letter-5 {
+    visibility: hidden;
+    opacity: 0;
   }
   main .price__container {
     padding-bottom: 82px;

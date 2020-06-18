@@ -52,6 +52,11 @@ $(function () {
     // Скрыть меню
     $(window).on("resize", Menu_width);
 
+    // Параллакс
+    $(".about-me").on('mousemove', Parallax_letter);
+
+    $(".price").on('mousemove', Parallax_price_letter);
+
     Active_section;
 
     // Появление кнопки при загрузки страницы
@@ -72,6 +77,30 @@ $(function () {
 function Popup_open() {
     $("body, html").css("overflow", "hidden");
     $(".popup").addClass("target");
+}
+
+// Буквы летают
+function Parallax_letter(e) {
+    let x = e.pageX / $(window).width();
+    let y = e.pageY / $(window).height();
+
+    $(".about-me__flight-letter-1").css("transform", "rotate(390deg) translate(" + x * 100 + 'px, ' + y * 100 + 'px)');
+    $(".about-me__flight-letter-2").css("transform", "rotate(-374deg) translate(" + x * 100 + 'px, ' + y * 100 + 'px)');
+    $(".about-me__flight-letter-3").css("transform", "rotate(375deg) translate(-" + x * 100 + 'px, -' + y * 100 + 'px)');
+    $(".about-me__flight-letter-4").css("transform", "rotate(381deg) translate(-" + x * 100 + 'px, -' + y * 100 + 'px)');
+    $(".about-me__flight-letter-5").css("transform", "rotate(-384deg) translate(" + x * 100 + 'px, ' + y * 100 + 'px)');
+    $(".about-me__flight-letter-6").css("transform", "rotate(14deg) translate(" + x * 100 + 'px, ' + y * 100 + 'px)');
+}
+
+function Parallax_price_letter(e) {
+    let x = e.pageX / $(window).width();
+    let y = e.pageY / $(window).height();
+
+    $(".price__flight-letter-1").css("transform", "rotate(388deg) translate(" + x * 100 + 'px, ' + y * 50 + 'px)');
+    $(".price__flight-letter-2").css("transform", "rotate(-382deg) translate(" + x * 100 + 'px, ' + y * 100 + 'px)');
+    $(".price__flight-letter-3").css("transform", "rotate(374deg) translate(-" + x * 100 + 'px, -' + y * 50 + 'px)');
+    $(".price__flight-letter-4").css("transform", "rotate(380deg) translate(" + x * 100 + 'px, -' + y * 100 + 'px)');
+    $(".price__flight-letter-5").css("transform", "rotate(-379deg) translate(-" + x * 100 + 'px, -' + y * 30 + 'px)');
 }
 
 // Скрыть меню при ширине
