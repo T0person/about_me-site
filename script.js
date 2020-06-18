@@ -71,6 +71,7 @@ $(function () {
     $(".popup__back span").on("click", Popup_close);
     $(".popup__back").on("click", Popup_close);
 
+    $(".popup__input[type='tel']").inputmask({ "mask": "8(999) 999-9999" });
 });
 
 // Открытие формы
